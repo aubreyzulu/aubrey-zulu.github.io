@@ -21,7 +21,7 @@
 
 .btn-dark {
   color: #f4f4f4;
-  background-color: #212121; }
+  background-color: #00796b; }
 
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
@@ -33,7 +33,7 @@ input[class^='btn-']:hover {
   color: #fff; }
 
 .bg-dark {
-  background: #212121;
+  background: #00796b;
   color: #fff; }
 
 .bg-light {
@@ -174,7 +174,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #212121; }
+  color: #00796b; }
 
 ul {
   list-style: none; }
@@ -275,7 +275,7 @@ img {
     transition: all 1s; }
   #home-c .process-icon {
     border-radius: 50%;
-    background: #212121;
+    background: #00796b;
     color: #fff;
     padding: 2rem;
     width: 70px;
@@ -290,7 +290,7 @@ img {
       height: 90px;
       line-height: 90px; }
       #home-c .process-icon:hover .process-step {
-        background: #212121;
+        background: #00796b;
         color: #fff; }
 
 #about-a .about-info {
@@ -391,7 +391,7 @@ img {
   font-size: 4rem; }
 
 #main-footer {
-  background: #212121;
+  background: #00796b;
   color: #fff;
   height: 5rem; }
   #main-footer .footer-content {

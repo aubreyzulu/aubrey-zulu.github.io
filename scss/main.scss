@@ -1,6 +1,6 @@
-@import 'config';
-@import 'utilities';
-@import 'item_grid';
+@import "config";
+@import "utilities";
+@import "item_grid";
 
 // General Styles
 * {
@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   line-height: 1.6;
   background: #fff;
 }
@@ -211,8 +211,8 @@ img {
     .about-info {
       display: grid;
       grid-template-areas:
-        'bioimage bio bio'
-        'aw1 aw2 aw3';
+        "bioimage bio bio"
+        "aw1 aw2 aw3";
       grid-gap: 1.2rem;
     }
 
@@ -311,9 +311,9 @@ img {
     .text-fields {
       display: grid;
       grid-template-areas:
-        'name email'
-        'subject phone'
-        'message message';
+        "name email"
+        "subject phone"
+        "message message";
       grid-gap: 1.2rem;
       margin-bottom: 1.2rem;
 
@@ -340,7 +340,7 @@ img {
       }
     }
 
-    button[type='submit'] {
+    button[type="submit"] {
       width: 50%;
     }
   }
@@ -391,4 +391,4 @@ img {
 }
 
 // Import Media Queries
-@import 'media';
+@import "media";
